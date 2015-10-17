@@ -1,7 +1,8 @@
 laravelSms for Laravel 5.1
 ==========
 
-package for send sms with laravel (published for [parssms24.ir](http://parssms24.ir)) this package only work for iranian mobile operator
+package for send sms with laravel (published for [Fara Payamak](http://www.farapayamak.ir/))
+this package only work for iranian mobile operator
 
 installation
 ------------
@@ -13,7 +14,8 @@ For install this package Edit your project's ```composer.json``` file to require
 },
 ```
 Add repositories to ```composer.json```
-```
+
+```php
 "repositories": [
         {
             "type": "vcs",
@@ -42,7 +44,7 @@ for change username, password and other configuration change ```app/config/packa
 
 Usage
 -----
-for use this package, please register on [parssms24.ir](http://parssms24.ir)
+for use this package, please register on [Fara Payamak](http://www.farapayamak.ir/)
 
 ### Send Message
 ```php
