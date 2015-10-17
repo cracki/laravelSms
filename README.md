@@ -40,7 +40,13 @@ Publish config files:
 ```
 php artisan vendor:publish --provider="Livana\Sms\SmsServiceProvider"
 ```
-for change username, password and other configuration change ```app/config/packages/livana/sms/config.php```
+for change username, password and other configuration change ```app/config/sms.php```
+or add this code to .env file
+```SMS_WEBSERVICE=http://api.payamak-panel.com/post/Send.asmx?wsdl
+SMS_USERNAME=9123456789
+SMS_PASSWORD=****
+SMS_FROM=****
+```
 
 Usage
 -----
