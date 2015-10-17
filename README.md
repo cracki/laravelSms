@@ -1,4 +1,4 @@
-laravelSms for Laravel 5.1
+SMS for Laravel 5.1
 ==========
 
 package for send sms with laravel (published for [Fara Payamak](http://www.farapayamak.ir/) or any reseller)
