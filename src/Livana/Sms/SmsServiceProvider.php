@@ -22,10 +22,10 @@ class SmsServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('livana/sms');
+		
 		$this->publishes([
-        __DIR__.'/../config/config.php' => config_path('sms.php')
-    ], 'config');
+        		__DIR__.'/../config/config.php' => config_path('sms.php')
+    		], 'config');
 	}
 
 
