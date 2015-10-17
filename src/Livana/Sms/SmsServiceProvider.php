@@ -38,7 +38,7 @@ class SmsServiceProvider extends ServiceProvider {
 	{
 		$this->app['sms'] = $this->app->share(function($app)
         {
-        	$config = Config::get('sms::config');
+        	$config = Config::get('sms');
             return new Sms($config, new SoapClient($config['webserviceUrl']));
         });
 	}
