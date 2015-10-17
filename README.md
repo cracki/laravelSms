@@ -1,7 +1,7 @@
 laravelSms for Laravel 5.1
 ==========
 
-package for send sms with laravel (published for [Fara Payamak](http://www.farapayamak.ir/))
+package for send sms with laravel (published for [Fara Payamak](http://www.farapayamak.ir/) or any reseller)
 this package only work for iranian mobile operator
 
 installation
@@ -50,7 +50,7 @@ SMS_FROM=****
 
 Usage
 -----
-for use this package, please register on [Fara Payamak](http://www.farapayamak.ir/)
+for use this package, please register on [Fara Payamak](http://www.farapayamak.ir/) or any reseller
 
 ### Send Message
 ```php
