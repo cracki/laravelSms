@@ -2,7 +2,7 @@
 
 return array (
 
-	'webserviceUrl' => 'http://sms.parssms24.ir/post/send.asmx?wsdl',
+	'webserviceUrl' => 'http://api.payamak-panel.com/post/Send.asmx?wsdl',
 	'username'		=> '9123456789',
 	'password'		=> '****',
 	'from'			=> '****',
