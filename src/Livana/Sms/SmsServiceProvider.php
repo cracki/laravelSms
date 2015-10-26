@@ -2,7 +2,6 @@
 namespace Livana\Sms;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Facades\Config;
 use SoapClient;
 class SmsServiceProvider extends ServiceProvider {
