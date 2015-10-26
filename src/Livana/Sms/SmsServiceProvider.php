@@ -36,7 +36,7 @@ class SmsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->singleton('sms', function($app)
+		$this->app->bind('sms', function($app)
 		{
 			$config = Config::get('sms');
     			return new Sms($config, new SoapClient($config['webserviceUrl']));
