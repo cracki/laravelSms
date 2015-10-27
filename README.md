@@ -47,6 +47,7 @@ SMS_USERNAME=9123456789
 SMS_PASSWORD=****
 SMS_FROM=****
 ```
+in production server you can use ```php artisan config:cache ``` to cache new configs
 
 Usage
 -----
